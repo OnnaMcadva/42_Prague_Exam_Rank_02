@@ -1,50 +1,62 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   repeat_alpha.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/12/08 19:59:41 by anmakaro          #+#    #+#             */
+/*   Updated: 2023/12/08 20:07:03 by anmakaro         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-void    ft_putchar_v(char c, int n)
+void	ft_putchar_v(char c, int n)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (i < n)
-    {
-        write(1, &c, 1);
-        i++;
-    }
+	i = 0;
+	while (i < n)
+	{
+		write(1, &c, 1);
+		i++;
+	}
 }
 
-void    repeat_alpha(char *str)
+void	repeat_alpha(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i])
-    {
-        if ('a' <= str[i] && str[i] <= 'z')
-            ft_putchar_v(str[i], str[i] + 1 - 'a');
-        else if ('A' <= str[i] && str[i] <= 'Z')
-            ft_putchar_v(str[i], str[i] + 1 - 'A');
-        else
-            write(1, &str[i], 1);
-        i++;
-    }
+	i = 0;
+	while (str[i])
+	{
+		if ('a' <= str[i] && str[i] <= 'z')
+			ft_putchar_v(str[i], str[i] - ('a' - 1));
+		else if ('A' <= str[i] && str[i] <= 'Z')
+			ft_putchar_v(str[i], str[i] - ('A' - 1));
+		else
+			write(1, &str[i], 1);
+		i++;
+	}
 }
 
-int main(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
-    if (argc == 2)
-        repeat_alpha(argv[1]);
-    write(1, "\n", 1);
-    return (0);
+	if (argc == 2)
+		repeat_alpha(argv[1]);
+	write(1, "\n", 1);
+	return (0);
 }
-
 
 // Assignment name  : repeat_alpha
 // Expected files   : repeat_alpha.c
 // Allowed functions: write
-// --------------------------------------------------------------------------------
+// --------------------------------------------------------
 
 // Write a program called repeat_alpha that takes a string and display it
-// repeating each alphabetical character as many times as its alphabetical index,
+// repeating each alphabetical character as many times as its
+// alphabetical index,
 // followed by a newline.
 
 // 'a' becomes 'a', 'b' becomes 'bb', 'e' becomes 'eeeee', etc...

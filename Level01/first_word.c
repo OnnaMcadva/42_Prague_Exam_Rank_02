@@ -6,7 +6,7 @@
 /*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 14:03:55 by anmakaro          #+#    #+#             */
-/*   Updated: 2023/12/07 14:20:35 by anmakaro         ###   ########.fr       */
+/*   Updated: 2023/12/08 20:11:05 by anmakaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,7 @@ int	main(int argc, char *argv[])
 		while (argv[1][i] == '	' || argv[1][i] == ' ')
 			i++;
 		while ((argv[1][i] != '	' && argv[1][i] != ' ') && argv[1][i])
-		{
-			write(1, &argv[1][i], 1);
-			i++;
-		}
+			write(1, &argv[1][i++], 1);
 	}
 	write(1, "\n", 1);
 }
