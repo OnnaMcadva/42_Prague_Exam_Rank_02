@@ -39,10 +39,11 @@ int	main(int argc, char *argv[])
 // Assignment name  : alpha_mirror
 // Expected files   : alpha_mirror.c
 // Allowed functions: write
-// --------------------------------------------------------------------------------
-
-// Write a program called alpha_mirror that takes a string and displays this string
-// after replacing each alphabetical character by the opposite alphabetical
+// -------------------------------------------------------
+// Write a program called alpha_mirror that takes a string
+// and displays this string
+// after replacing each alphabetical character by the opposite
+// alphabetical
 // character, followed by a newline.
 
 // 'a' becomes 'z', 'Z' becomes 'A'
