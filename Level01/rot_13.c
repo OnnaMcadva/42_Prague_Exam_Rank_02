@@ -6,16 +6,11 @@
 /*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 20:56:04 by anmakaro          #+#    #+#             */
-/*   Updated: 2023/12/08 21:03:32 by anmakaro         ###   ########.fr       */
+/*   Updated: 2023/12/08 21:38:35 by anmakaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 void	rot_13(char *str)
 {
@@ -30,12 +25,12 @@ void	rot_13(char *str)
 		else if (('N' <= str[i] && str[i] <= 'Z')
 			|| ('n' <= str[i] && str[i] <= 'z'))
 			str[i] -= 13;
-		ft_putchar(str[i]);
+		write(1, &str[i], 1);
 		i++;
 	}
 }
 
-int	main(int argc, char **argv)
+int	main(int argc, char *argv[])
 {
 	if (argc == 2)
 		rot_13(argv[1]);
