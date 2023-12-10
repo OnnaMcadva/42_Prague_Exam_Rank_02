@@ -1,43 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrev.c                                        :+:      :+:    :+:   */
+/*   max.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/10 13:59:14 by anmakaro          #+#    #+#             */
-/*   Updated: 2023/12/10 16:13:32 by anmakaro         ###   ########.fr       */
+/*   Created: 2023/12/10 19:13:11 by anmakaro          #+#    #+#             */
+/*   Updated: 2023/12/10 19:13:17 by anmakaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strrev(char *str)
-{
-	int i;
-	int len;
-	char temp;
 
-    i = -1;
-    len = 0;
-	while (str[len])
-		len++;
-	while (++i < len / 2)
-	{
-		temp = str[i];
-		str[i] = str[len - 1 - i];
-		str[len - 1 - i] = temp;
-	}
-	return (str);
-}
 
-// Assignment name  : ft_strrev
-// Expected files   : ft_strrev.c
+// Assignment name  : max
+// Expected files   : max.c
 // Allowed functions:
 // --------------------------------------------------------------------------------
 
-// Write a function that reverses (in-place) a string.
+// Write the following function:
 
-// It must return its parameter.
+// int		max(int* tab, unsigned int len);
 
-// Your function must be declared as follows:
+// The first parameter is an array of int, the second is the number of elements in
+// the array.
 
-// char    *ft_strrev(char *str);
+// The function returns the largest number found in the array.
+
+// If the array is empty, the function returns 0.

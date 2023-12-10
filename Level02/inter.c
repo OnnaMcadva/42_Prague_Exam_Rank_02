@@ -1,5 +1,51 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   inter.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/12/10 14:00:15 by anmakaro          #+#    #+#             */
+/*   Updated: 2023/12/10 19:04:54 by anmakaro         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include <unistd.h>
 
+void    ft_arr_sort(char *s1, char *s2)
+{
+    int arr[128] = {0};
+    int i = 0;
+    int j;
+
+	while(s1[i])
+	{	
+		j = 0;
+		while(s2[j])
+		{
+			if(s2[j] == s1[i])
+			{
+				if(arr[(int)s1[i]] == 0)
+				{
+					arr[(int)s1[i]] = 1;
+					write(1, &s2[j], 1);
+				}
+			}
+			j++;
+		}
+		i++;
+	}
+}
+
+int	main(int argc, char *argv[])
+{
+	if (argc == 3)
+	{
+        ft_arr_sort(argv[1], argv[2]);
+	}
+	write(1, "\n", 1);
+	return (0);
+}
 
 // Assignment name  : inter
 // Expected files   : inter.c
