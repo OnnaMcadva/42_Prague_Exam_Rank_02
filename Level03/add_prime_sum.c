@@ -6,11 +6,30 @@
 /*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 22:12:47 by anmakaro          #+#    #+#             */
-/*   Updated: 2023/12/08 22:13:07 by anmakaro         ###   ########.fr       */
+/*   Updated: 2023/12/11 14:13:51 by anmakaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_is_prime(int nb)
+{
+	int	i;
 
+	i = 2;
+	if (nb <= 1)
+	{
+		return (0);
+	}
+	while (i <= (nb / i))
+	{
+		if (nb % i == 0)
+		{
+			return (0);
+		}
+		else
+			i++;
+	}
+	return (1);
+}
 
 // Assignment name  : add_prime_sum
 // Expected files   : add_prime_sum.c
