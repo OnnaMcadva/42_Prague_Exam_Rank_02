@@ -52,7 +52,30 @@ int main()
     return 0;
 }
 */
+/*
+#include <stdio.h>
 
+unsigned char reverse_bits(unsigned char octet) {
+    unsigned char result = 0;
+    int i;
+
+    for (i = 0; i < 8; ++i) {
+        result = (result << 1) | ((octet >> i) & 1);
+    }
+
+    return result;
+}
+
+int main() {
+    unsigned char original = 170;  // Пример значения (10101010 в двоичной системе)
+    unsigned char reversed = reverse_bits(original);
+
+    printf("Original: %d\n", original);
+    printf("Reversed: %d\n", reversed);
+
+    return 0;
+}
+*/
 // Assignment name  : reverse_bits
 // Expected files   : reverse_bits.c
 // Allowed functions:
