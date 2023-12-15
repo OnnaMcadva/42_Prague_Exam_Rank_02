@@ -10,18 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned char	reverse_bits(unsigned char octet)
+unsigned char reverse_bits(unsigned char octet)
 {
-	int		i = 8;
-	unsigned char	rev_char = 0;
+    unsigned char result = 0;
+    int i = 0;
 
-	while (i)
-	{
-		rev_char = rev_char * 2 + (octet % 2);
-		octet = octet / 2;
-		i--;
-	}
-	return (rev_char);
+    while (i < 8)
+    {
+        result = (result << 1) | ((octet >> i) & 1);
+        i++;
+    }
+
+    return result;
 }
 
 /*
@@ -53,19 +53,6 @@ int main()
 }
 */
 /*
-#include <stdio.h>
-
-unsigned char reverse_bits(unsigned char octet) {
-    unsigned char result = 0;
-    int i;
-
-    for (i = 0; i < 8; ++i) {
-        result = (result << 1) | ((octet >> i) & 1);
-    }
-
-    return result;
-}
-
 int main() {
     unsigned char original = 170;  // Пример значения (10101010 в двоичной системе)
     unsigned char reversed = reverse_bits(original);
