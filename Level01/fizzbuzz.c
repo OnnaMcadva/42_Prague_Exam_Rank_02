@@ -27,6 +27,7 @@ void	ft_putnbr_v(int n)
 	else
 		ft_putchar(n + '0');
 }
+
 int	main(void)
 {
 	int	i;
