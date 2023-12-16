@@ -30,25 +30,26 @@ char	*ft_strpbrk(const char *s1, const char *s2)
 	return (0);
 }
 
-#include <stdio.h>
-#include <string.h>
+// #include <stdio.h>
+// #include <string.h>
 
-char	*ft_strpbrk(const char *s1, const char *s2);
+// char	*ft_strpbrk(const char *s1, const char *s2);
 
-int	main(void)
-{
-	char str1[] = "Hella, world!";
-	char str2[] = "haeiou";
-	char *result;
+// int	main(void)
+// {
+// 	char str1[] = "Hella, world!";
+// 	char str2[] = "hw iou";
+// 	char *result;
 
-	result = ft_strpbrk(str1, str2);
-	if (result == NULL)
-		printf("No matching characters found.\n");
-	else
-		printf("The first matching character is '%c' at position %ld.\n", *result, result - str1);
+// 	result = ft_strpbrk(str1, str2);
+// 	if (result == NULL)
+// 		printf("No matching characters found.\n");
+// 	else
+// 		printf("The first matching character is '%c' at position %ld.\n", *result, result - str1);
+// 		printf("The pointer result is %p and the pointer str1 is %p\n", result, str1);
 
-	return (0);
-}
+// 	return (0);
+// }
 
 // Assignment name	: ft_strpbrk
 // Expected files	: ft_strpbrk.c
