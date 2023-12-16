@@ -12,11 +12,6 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
 void	epur_str(char *str)
 {
 	int	i;
@@ -27,11 +22,11 @@ void	epur_str(char *str)
 	while (str[i])
 	{
 		if (str[i] != ' ' && str[i] != '\t') 
-			ft_putchar(str[i]);
+			write(1, &str[i], 1);
 		else if (str[i] == ' ' || str[i] == '\t')
 		{
 			if (str[i + 1] && str[i + 1] > ' ')
-				ft_putchar(' ');
+				write(1, " ", 1);
 		}
 		i++;
 	}
@@ -41,7 +36,7 @@ int	main(int argc, char *argv[])
 {
 	if (argc == 2)
 		epur_str(argv[1]);
-	ft_putchar('\n');
+	write(1, "\n", 1);
 	return (0);
 }
 
