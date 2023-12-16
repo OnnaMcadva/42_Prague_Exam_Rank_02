@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   add_prime_sum.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anmakaro <anmakaro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: annavm <annavm@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 22:12:47 by anmakaro          #+#    #+#             */
-/*   Updated: 2023/12/11 14:13:51 by anmakaro         ###   ########.fr       */
+/*   Updated: 2023/12/16 20:41:28 by annavm           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,15 +17,15 @@ int	ft_is_prime(int n)
 	int i = 3;
 
     if (n <= 1) 
-		  return (0);
+		return (0);
     if (n == 2) 
-		  return (1);
+		return (1);
     if (n % 2 == 0) 
-		  return (0);
+		return (0);
     while (i * i <= n)
 	{
         if (n % i == 0) 
-			  return (0);
+			return (0);
 		i += 2;
 	}
     return (1);
@@ -121,4 +121,3 @@ int main(int argc, char *argv[])
 // $>./add_prime_sum | cat -e
 // 0$
 // $>
-
