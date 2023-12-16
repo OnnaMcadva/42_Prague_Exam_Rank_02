@@ -20,21 +20,22 @@ void print_bits(unsigned char octet)
 	while (i--)
 	{
 		bit = (octet >> i & 0x01) + '0';
+		// bit = ((octet & (0x01 << i)) >> i) + '0'; или вот такой замороченный вариант))
 		write(1, &bit, 1);
 	}
 }
 
-/*
+
 int main()
 {
-    unsigned char byte = 255;
+    unsigned char byte = 37;
 
     print_bits(byte);
     write(1, "\n", 1);
 
     return 0;
 }
-*/
+
 
 // Assignment name  : print_bits
 // Expected files   : print_bits.c
