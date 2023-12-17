@@ -1,6 +1,6 @@
-# 42_Prague_Exam_Rank_02
+# 42_Prague_Exam_Rank_02 and _03
 
-# Exam_Rank_02 Questions
+## Exam_Rank_02 Questions
 
 ### Question 1 is from Level 1
 * Any of the 12 Functions/Programs Below:
@@ -71,12 +71,12 @@
   - ft_list_remove_if
   - ft_split
   - rev_wstr
-  - rostring
+  - rostringhttps://github.com/pasqualerossi/42-School-Exam-Rank-03/tree/main/get_next_line
   - sort_int_tab
   - sort_list
 ```
 
-# Exam_Rank_02 Questions
+## Exam_Rank_03 Questions
 
 - [Get_Next_Line](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02/tree/main/Level04/get_next_line)
 
