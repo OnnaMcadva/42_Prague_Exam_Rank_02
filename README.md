@@ -71,7 +71,7 @@
   - ft_list_remove_if
   - ft_split
   - rev_wstr
-  - rostringhttps://github.com/pasqualerossi/42-School-Exam-Rank-03/tree/main/get_next_line
+  - rostring
   - sort_int_tab
   - sort_list
 ```
