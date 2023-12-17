@@ -19,7 +19,7 @@
   - ulstr
 ```
 ### Question 2 is from Level 2
-* *Any of the 20 Functions/Programs Below:
+* Any of the 20 Functions/Programs Below:
 ```
   - alpha_mirror
   - camel_to_snake
@@ -62,7 +62,7 @@
   - tab_mult 
 ```
 ### Question 4 is from Level 4
-* *Any of the 10 Functions/Programs Below:
+* Any of the 10 Functions/Programs Below:
 ```
   - flood_fill
   - fprime
