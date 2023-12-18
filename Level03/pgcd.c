@@ -1,26 +1,25 @@
-
+/* эта задача была у меня на экзамене. но там я решила ее другим способом */
 #include <stdio.h>
 #include <stdlib.h>
 
 int    ft_pgcd(int a, int b)
 {
     int denom = a;
-    while (denom >= 2)
+    while (denom >= 1)
     {
         if ((a % denom == 0) && (b % denom == 0))
         {
-            printf("%d", denom);
             return(denom);
         }
         denom--;
     }
-    return(0);
+    return(1);
 }
 
 int	main(int argc, char **argv)
 {
 	if (argc == 3)
-		ft_pgcd(atoi(argv[1]), atoi(argv[2]));
+		printf("%d", ft_pgcd(atoi(argv[1]), atoi(argv[2])));
 	printf("\n");
 	return (0);
 }
