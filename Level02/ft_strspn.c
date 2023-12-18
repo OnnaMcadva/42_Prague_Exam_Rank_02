@@ -47,7 +47,7 @@ size_t ft_strspn(const char *s, const char *accept);
 int main(void)
 {
     char str1[] = "Hello, World!";
-    char str2[] = "Helko Helko Helko Helko";
+    char str2[] = "Helko Helko Helko Herlko";
     size_t len = ft_strspn(str1, str2);
     printf("Length of initial segment in '%s' containing only characters from '%s': %zu\n", str1, str2, len);
     return 0;

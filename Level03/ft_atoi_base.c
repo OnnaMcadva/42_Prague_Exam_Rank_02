@@ -1,5 +1,7 @@
 
 // нет проверки Those are, of course, to be trimmed according to the requested base.
+// должна быть обрезка входящего числа.
+// char hex_digs[] = "0123456789abcdef"; можно создать массив и с ним сверять число.
 
 int	ft_atoi_base(const char *str, int str_base)
 {
