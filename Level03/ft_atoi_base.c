@@ -21,9 +21,9 @@ int	ft_atoi_base(const char *str, int str_base)
         if ('0' <= str[i] && str[i] <= '9')
             result += str[i] - '0';
         else if ('A' <= str[i] && str[i] <= 'F')
-            result += str[i] - 'A' + 10;
+            result += str[i] - 'A' + 10; // - 'A' + 10 == - '7'
         else if ('a' <= str[i] && str[i] <= 'f')
-            result += str[i] - 'a' + 10;
+            result += str[i] - 'a' + 10; // - 'a' + 10 == - 'W'
         i++;
     }
 	return (result * sign);
@@ -70,6 +70,9 @@ int	ft_atoi_base(const char *str, int str_base)
 // Your function must be declared as follows:
 
 // int	ft_atoi_base(const char *str, int str_base);
+
+
+// Проверка 
 
 // bool is_valid_char(char c, int str_base)
 // {

@@ -21,7 +21,7 @@ unsigned char reverse_bits(unsigned char octet)
         i++;
     }
 
-    return result;
+    return (result);
 }
 
 /*
