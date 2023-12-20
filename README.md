@@ -6,9 +6,10 @@
 * Any of the 12 Functions/Programs Below:
   
   - [first_word](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/first_word.c)
+  - [fizzbuzz](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/fizzbuzz.c)
+  - [ft_putstr](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_putstr.c)
+  - [ft_strcpy](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_strcpy.c)
 ```
-  - fizzbuzz
-  - ft_strcpy
   - ft_strlen
   - ft_swap
   - putstr
