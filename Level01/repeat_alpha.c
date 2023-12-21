@@ -12,38 +12,34 @@
 
 #include <unistd.h>
 
-void	ft_putchar_v(char c, int n)
+void	ft_putchar_v(char c, int i)
 {
-	int	i;
-
-	i = 0;
-	while (i < n)
+	while (i > 0)
 	{
-		write(1, &c, 1);
-		i++;
+		write (1, &c, 1);
+		i--;
 	}
 }
 
 void	repeat_alpha(char *str)
 {
-	int	i;
+	int i = 0;
 
-	i = 0;
 	while (str[i])
 	{
-		if ('a' <= str[i] && str[i] <= 'z')
-			ft_putchar_v(str[i], str[i] - ('a' - 1));
-		else if ('A' <= str[i] && str[i] <= 'Z')
+		if ('A' <= str[i] && str[i] <= 'Z')
 			ft_putchar_v(str[i], str[i] - ('A' - 1));
+		else if ('a' <= str[i] && str[i] <= 'z')
+			ft_putchar_v(str[i], str[i] - ('a' - 1));
 		else
-			write(1, &str[i], 1);
+			write (1, &str[i], 1);
 		i++;
 	}
 }
 
 int	main(int argc, char *argv[])
 {
-	if (argc == 2)
+	if(argc == 2)
 		repeat_alpha(argv[1]);
 	write(1, "\n", 1);
 	return (0);
