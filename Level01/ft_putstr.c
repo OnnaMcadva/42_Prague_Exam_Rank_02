@@ -14,11 +14,13 @@
 
 void	ft_putstr(char *str)
 {
-	size_t	i;
+	int i = 0;
 
-	i = 0;
 	while (str[i])
-		write(1, &str[i++], 1);
+	{
+		write (1, &str[i], 1);
+		i++;
+	}
 }
 
 // Assignment name  : ft_putstr

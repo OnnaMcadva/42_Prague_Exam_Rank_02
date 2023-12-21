@@ -12,14 +12,12 @@
 
 int	ft_strlen(char *str)
 {
-	int	counter;
+	int count = 0;
 
-	counter = 0;
-	while (str[counter])
-		counter++;
-	return (counter);
+	while (str[count])
+		count++;
+	return (count);
 }
-
 // Assignment name  : ft_strlen
 // Expected files   : ft_strlen.c
 // Allowed functions:
