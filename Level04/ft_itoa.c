@@ -1,51 +1,49 @@
 #include <stddef.h>
-#include <stdio.h>
+//#include <stdio.h>
 #include <stdlib.h>
 
-static unsigned int	ft_number_size(int number)
+int ft_digits(int nbr)
 {
-	unsigned int	digits;
-
-	digits = 0;
-	if (number == 0)
-		return (1);
-	if (number < 0)
-		digits += 1;
-	while (number != 0)
-	{
-		number /= 10;
-		digits++;
-	}
-	return (digits);
+    int dig = 0;
+    
+    if (nbr == 0)
+        return (1);
+    if (nbr < 0)
+        dig += 1;
+    while (nbr != 0)
+    {
+        nbr /= 10;
+        dig++;
+    }
+    return (dig);
 }
 
 char	*ft_itoa(int nbr)
 {
-	unsigned int	number;
-	unsigned int	digits;
-	char			*string;
+    long int helpa;
+    unsigned int digits = ft_digits(nbr);
+    char *str;
 
-	digits = ft_number_size(nbr);
-	string = (char *)malloc(sizeof(char) * (digits + 1));
-	if (string == NULL)
-		return (NULL);
-	if (nbr < 0)
-	{
-		string[0] = '-';
-		number = -nbr;
-	}
-	else
-		number = nbr;
-	if (number == 0)
-		string[0] = '0';
-	string[digits] = '\0';
-	while (number != 0)
-	{
-		string[digits - 1] = (number % 10) + '0';
-		number /= 10;
-		digits--;
-	}
-	return (string);
+    str = (char*)malloc(sizeof(char)*(digits + 1));
+    if (!str)
+        return (NULL);
+    if (helpa < 0)
+    {
+        helpa = -nbr;
+        str[0] = '-';
+    }
+    else if (nbr == 0)
+        str[0] = '0';
+    else
+        helpa = nbr;
+    str[digits] = '\0';
+    while (helpa)
+    {
+        str[digits - 1] = helpa % 10 + '0';
+        helpa /= 10;
+        digits--;
+    }
+    return (str);    
 }
 
 // Assignment name  : ft_itoa
