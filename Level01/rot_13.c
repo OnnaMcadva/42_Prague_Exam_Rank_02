@@ -14,18 +14,15 @@
 
 void	rot_13(char *str)
 {
-	int	i;
-
-	i = 0;
+	int i = 0;
+	
 	while (str[i])
 	{
-		if (('A' <= str[i] && str[i] <= 'M')
-			|| ('a' <= str[i] && str[i] <= 'm'))
+		if (('a' <= str[i] && str[i] <= 'm') || ('A' <= str[i] && str[i] <= 'M'))
 			str[i] += 13;
-		else if (('N' <= str[i] && str[i] <= 'Z')
-			|| ('n' <= str[i] && str[i] <= 'z'))
+		else if (('n' <= str[i] && str[i] <= 'z') || ('N' <= str[i] && str[i] <= 'Z'))
 			str[i] -= 13;
-		write(1, &str[i], 1);
+		write (1, &str[i], 1);
 		i++;
 	}
 }
