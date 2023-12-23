@@ -14,9 +14,8 @@
 
 int	main(int argc, char *argv[])
 {
-	int	i;
+	int i = 0;
 
-	i = 0;
 	if (argc == 4 && !argv[2][1] && !argv[3][1])
 	{
 		while (argv[1][i])
@@ -28,7 +27,9 @@ int	main(int argc, char *argv[])
 		}
 	}
 	write (1, "\n", 1);
+	return (0);
 }
+
 
 // Assignment name  : search_and_replace
 // Expected files   : search_and_replace.c
