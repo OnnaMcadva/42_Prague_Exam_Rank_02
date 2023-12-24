@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void ft_putstr(char const *str)
+void ft_putstr(char *str)
 {
 	int i = 0;
 
@@ -8,19 +8,38 @@ void ft_putstr(char const *str)
 		write(1, &str[i++], 1);
 }
 
-int	main(int argc, char const *argv[])
+int	ft_len(char *str)
 {
 	int i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
+
+void	wdmatch(char *str1, char *str2)
+{
+	int count = 0;
+	int len = ft_len(str1);
 	int j = 0;
 
-	if (argc == 3)
+	while (str2[j] && str1[count])
 	{
-		while (argv[2][j])
-			if (argv[2][j++] == argv[1][i])
-				i += 1;
-		if (!argv[1][i])
-			ft_putstr(argv[1]);
+		if (str1[count] == str2[j])
+			count++;
+		if (count == len)
+		{
+			ft_putstr(str1);
+			return ;
+		}
+		j++;
 	}
+
+}
+
+int	main(int argc, char *argv[])
+{
+	if (argc == 3)
+		wdmatch(argv[1], argv[2]);
 	write(1, "\n", 1);
 	return (0);
 }
