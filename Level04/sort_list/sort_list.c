@@ -10,28 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "list.h"
 
-void	ft_swap(int *a, int *b)
+t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
 {
-	int	tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
-
-t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
-{
-	t_list	*tmp;
+	int swap;
+	t_list *tmp;
 
 	tmp = lst;
-	while (lst->next != NULL)
+	while (lst->next != 0)
 	{
 		if (((*cmp)(lst->data, lst->next->data)) == 0)
 		{
-			ft_swap(&lst->data, &lst->next->data);
+			swap = lst->data;
+			lst->data = lst->next->data;
+			lst->next->data = swap;
 			lst = tmp;
 		}
 		else
