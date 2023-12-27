@@ -27,7 +27,7 @@ char	*ft_itoa(int nbr)
     str = (char*)malloc(sizeof(char)*(digits + 1));
     if (!str)
         return (NULL);
-    if (helpa < 0)
+    if (nbr < 0)
     {
         helpa = -nbr;
         str[0] = '-';
