@@ -76,6 +76,9 @@
   - sort_list
 ```
 
+![Screenshot from 2023-12-28 22-24-18](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/assets/94723781/68e969eb-3cdf-475b-8d79-0960c55881af)
+
+
 ## Exam_Rank_03 Questions
 
 - [Get_Next_Line](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02/tree/main/Level04/get_next_line)
