@@ -20,28 +20,28 @@
 
 ### Question 2 is from Level 2
 * Any of the 20 Functions/Programs Below:
-```
-  - alpha_mirror
-  - camel_to_snake
-  - do_op
-  - ft_atoi
-  - ft_strcmp
-  - ft_strcspn
-  - ft_strdup
-  - ft_strpbrk
-  - ft_strrev
-  - ft_strspn
-  - inter
-  - is_power_of_2
-  - last_word
-  - max
-  - print_bits
-  - reverse_bits
-  - snake_to_camel
-  - swap_bits
-  - union
-  - wdmatch 
-```
+  
+  - [alpha_mirror](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/alpha_mirror.c)
+  - [camel_to_snake](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/camel_to_snake.c)
+  - [do_op](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/do_op.c)
+  - [ft_atoi](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_atoi.c)
+  - [ft_strcmp](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strcmp.c)
+  - [ft_strcspn](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strcspn.c)
+  - [ft_strdup](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strdup.c)
+  - [ft_strpbrk](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strpbrk.c)
+  - [ft_strrev](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strrev.c)
+  - [ft_strspn](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/ft_strspn.c)
+  - [inter](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/inter.c)
+  - [is_power_of_2](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/is_power_of_2.c)
+  - [last_word](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/last_word.c)
+  - [max](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/max.c)
+  - [print_bits](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/print_bits.c)
+  - [reverse_bits](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/reverse_bits.c)
+  - [snake_to_camel](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/snake_to_camel.c)
+  - [swap_bits](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/swap_bits.c)
+  - [union](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/union.c)
+  - [wdmatch](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level02/wdmatch.c)
+
 ### Question 3 is from Level 3
 * Any of the 15 Functions/Programs Below:
 ```
