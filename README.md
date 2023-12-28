@@ -9,17 +9,15 @@
   - [fizzbuzz](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/fizzbuzz.c)
   - [ft_putstr](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_putstr.c)
   - [ft_strcpy](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_strcpy.c)
-```
-  - ft_strlen
-  - ft_swap
-  - putstr
-  - repeat_alpha
-  - rev_print
-  - rot_13
-  - rotone
-  - search_and_replace
-  - ulstr
-```
+  - [ft_strlen](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_strlen.c)
+  - [ft_swap](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ft_swap.c)
+  - [repeat_alpha](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/repeat_alpha.c)
+  - [rev_print](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/rev_print.c)
+  - [rot_13](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/rot_13.c)
+  - [rotone](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/rotone.c)
+  - [search_and_replace](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/search_and_replace.c)
+  - [ulstr](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level01/ulstr.c)
+
 ### Question 2 is from Level 2
 * Any of the 20 Functions/Programs Below:
 ```
