@@ -44,37 +44,37 @@
 
 ### Question 3 is from Level 3
 * Any of the 15 Functions/Programs Below:
-```
-  - add_prime_sum
-  - epur_str
-  - expand_str
-  - ft_atoi_base
-  - ft_list_size
-  - ft_range
-  - ft_rrange
-  - hidenp
-  - lcm
-  - paramsum
-  - pgcd
-  - print_hex
-  - rstr_capitalizer
-  - str_capitalizer
-  - tab_mult 
-```
+
+  - [add_prime_sum](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/add_prime_sum.c)
+  - [epur_str](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/epur_str.c)
+  - [expand_str](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/expand_str.c)
+  - [ft_atoi_base](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/ft_atoi_base.c)
+  - [ft_list_size](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/ft_list_size.c)
+  - [ft_range](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/ft_range.c)
+  - [ft_rrange](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/ft_rrange.c)
+  - [hidenp](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/hidenp.c)
+  - [lcm](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/lcm.c)
+  - [paramsum](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/paramsum.c)
+  - [pgcd](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/pgcd.c)
+  - [print_hex](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/print_hex.c)
+  - [rstr_capitalizer](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/rstr_capitalizer.c)
+  - [str_capitalizer](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/str_capitalizer.c)
+  - [tab_mult](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level03/tab_mult.c)
+
 ### Question 4 is from Level 4
 * Any of the 10 Functions/Programs Below:
-```
-  - flood_fill
-  - fprime
-  - ft_itoa
-  - ft_list_foreach
-  - ft_list_remove_if
-  - ft_split
-  - rev_wstr
-  - rostring
-  - sort_int_tab
-  - sort_list
-```
+
+  - [flood_fill](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/Level04/flood_fill)
+  - [fprime](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/fprime.c)
+  - [ft_itoa](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/ft_itoa.c)
+  - [ft_list_foreach](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/Level04/ft_list_foreach)
+  - [ft_list_remove_if](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/Level04/ft_list_remove_if)
+  - [ft_split](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/ft_split.c)
+  - [rev_wstr](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/rev_wstr.c)
+  - [rostring](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/rostring.c)
+  - [sort_int_tab](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/blob/main/Level04/sort_int_tab.c)
+  - [sort_list](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/Level04/sort_list)
+
 
 ![Screenshot from 2023-12-28 22-24-18](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/assets/94723781/68e969eb-3cdf-475b-8d79-0960c55881af)
 
