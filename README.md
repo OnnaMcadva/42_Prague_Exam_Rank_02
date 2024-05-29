@@ -81,6 +81,6 @@
 
 ## Exam_Rank_03 Questions
 
-- [Get_Next_Line](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02/tree/main/Level04/get_next_line)
+- [Get_Next_Line](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/get_next_line)
 
 - [Ft_Printf](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02/tree/main/Level04/ft_printf) 
