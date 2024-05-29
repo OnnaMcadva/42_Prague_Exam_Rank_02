@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+# include <unistd.h>
+# include <stdlib.h>
+
+#ifndef BUFFER_SIZE
+# define BUFFER_SIZE 42
+#endif
 
 char	*ft_strchr(char *s, int c)
 {
