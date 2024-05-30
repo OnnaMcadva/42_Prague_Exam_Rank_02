@@ -15,6 +15,14 @@
 #include <stdio.h>
 #include <limits.h>
 
+int is_spec(char c)
+{
+    if ((c == 's') || (c == 'd') || (c == 'x'))
+        return (1);
+    else
+        return (0);
+}
+
 void put_string(char *str, int *len)
 {
     if (!str)
@@ -35,14 +43,6 @@ void put_digit(long long int num, int base, int *len)
     if (num >= base)
         put_digit((num / base), base, len);
     *len += write (1, &hex[num % base], 1);
-}
-
-int is_spec(char c)
-{
-    if ((c == 's') || (c == 'd') || (c == 'x'))
-        return (1);
-    else
-        return (0);
 }
 
 int	ft_printf(const char *str, ...)
