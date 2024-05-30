@@ -71,6 +71,7 @@ int	ft_printf(const char *str, ...)
     return (va_end(args), len);
 }
 
+/*
 void	test_simple(void)
 {
 	int	x;
@@ -200,3 +201,4 @@ int	main(void)
 
 	return (0);
 }
+*/
