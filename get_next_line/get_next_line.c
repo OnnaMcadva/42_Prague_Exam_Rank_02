@@ -49,7 +49,7 @@ char	*ft_strdup(const char *src)
 	size_t	len = ft_strlen(src) + 1;
 	char	*dst = malloc(len);
 	
-	if (dst == NULL)
+	if (!dst)
 		return (NULL);
 	ft_strcpy(dst, src);
 	return (dst);
@@ -57,12 +57,13 @@ char	*ft_strdup(const char *src)
 
 char	*ft_strjoin(char *s1, char const *s2)
 {
+	if (!s1 || !s2)
+		return (NULL);
+		
 	size_t	s1_len = ft_strlen(s1);
 	size_t	s2_len = ft_strlen(s2);
 	char	*join = malloc((s1_len + s2_len + 1));
 
-	if (!s1 || !s2)
-		return (NULL);
 	if (!join)
 		return (NULL);
 	ft_strcpy(join, s1);
