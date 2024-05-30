@@ -15,11 +15,6 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define CYN "\e[0;36m"
-#define WHT "\e[0;37m"
-#define STR1 "TEST is OKKKKKKKKKKKKKKK"
-#define STR2 "TEST is KO"
-
 int is_spec(char c)
 {
     if ((c == 's') || (c == 'd') || (c == 'x'))
@@ -74,15 +69,6 @@ int	ft_printf(const char *str, ...)
         str++;
     }
     return (va_end(args), len);
-}
-
-void is_ok(int x, int y)
-{
-    if (x == y)
-        printf ("%s\n", CYN STR1);
-    else
-        printf ("%s\n", CYN STR2);        
-       
 }
 
 void	test_simple(void)
