@@ -84,3 +84,5 @@
 - [Get_Next_Line](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/get_next_line)
 
 - [Ft_Printf](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/tree/main/ft_printf) 
+
+![Screenshot from 2024-06-02 14-34-21](https://github.com/OnnaMcadva/42_Prague_Exam_Rank_02_and_03/assets/94723781/478f5bc9-916f-44cc-b2d8-8b5bad013be9)
